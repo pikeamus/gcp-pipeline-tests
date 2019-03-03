@@ -8,4 +8,7 @@ setup(name='gcp_pipeline_tests',
       author_email='mikestevenroberts@gmail.com',
       license='MIT',
       packages=['gcp_pipeline_tests'],
-      zip_safe=False)
+      zip_safe=False,
+      install_requires=[
+            'gcsfs',
+            'pandas>0.24'])
